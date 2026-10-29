@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
-void log(int message){
+void log(int message)
+{
     cout << message << endl;
 };
-//now if i take a new file and use above fuction
-//as it is not defined there it cant execute
+// now if i take a new file and use above fuction
+// as it is not defined there it cant execute
+int main(){
+    int a = 1;
+    cout << "hello world"<< endl;
+}
